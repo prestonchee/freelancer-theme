@@ -2,36 +2,39 @@
 layout: default
 modal-id: 2
 date: 2014-07-17
-img: table.png
+img: cake.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-table, th, td {
-  border:1px solid black;
-}
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td { border:1px solid black; }
 </style>
 <body>
 
+<h2>A basic HTML table</h2>
+
 <table style="width:100%">
   <tr>
-    <th>Person</th>
-    <th>Favorite Color</th>
-    <th>Personal Relation</th>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
   </tr>
   <tr>
-    <td>Preston Chee</td>
-    <td>Green</td>
-    <td>Myself</td>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
   </tr>
   <tr>
-    <td>Sarah Chee</td>
-    <td>Blue</td>
-    <td>Wife</td>
-  </tr>
-  <tr>
-    <td>Lady</td>
-    <td>Unkown</td>
-    <td>Dog</td>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
   </tr>
 </table>
+
+<p>To understand the example better, we have added borders to the table.</p>
+
+</body>
+</html>
