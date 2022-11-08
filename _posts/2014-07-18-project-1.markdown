@@ -7,6 +7,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-links: <a href="https://www.google.com/">Favorite search engine</a>
-        <a href="https://www.youtube.com/">Favorite place to watch videos</a>
+links: <p><a href="https://www.google.com/">Favorite search engine</a></p>
+       <p><a href="https://www.youtube.com/">Favorite place to watch videos</a></p>
 ---
